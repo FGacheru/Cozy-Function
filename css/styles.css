@@ -12,9 +12,7 @@
  }
 
  nav {
-     max-width: 960px;
      margin: 0 auto;
-     padding: 35px 0;
      margin-right: 0%;
      display: flex;
      justify-content: flex-end;
@@ -29,14 +27,41 @@
  nav>ul>li {
      margin-right: 0;
      text-transform: uppercase;
-     text-decoration: none;
      display: inline;
      color: rgba(255, 255, 255, 0.733);
-     padding: 20px;
+     padding: 10px;
+ }
+ a{
+    text-decoration: none;
+    /* color: white; */
+
  }
 
  nav>ul>li>a:hover {
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-     background: rgba(221, 109, 35, 0.678);
-     color: rgba(0, 35, 122, 0.7);
+    border: 2px rgb(19, 230, 159);
+    background-color: rgb(7, 123, 168);
+    transition-duration: 2s;
+    border-radius: 3px;
  }
+ #services {
+     background-image: url("../images/bestOffers.jpg");
+    height: 100vh;
+ }
+ #aboutUs img{
+     float: left;
+     top: 3vh;
+  
+ }
+#aboutUs{
+    text-align: center;
+    bottom: 40vh;
+    display: inline-block;
+    align-items: center;
+}
+.story{
+    text-align: center;
+    font-size: 200%;
+    color: cadetblue;
+}
+
+     

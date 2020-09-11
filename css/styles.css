@@ -3,6 +3,9 @@
      background-repeat: no-repeat;
      height: 100vh;
      background-size: auto;
+     margin-block: 8px;
+     /* background-color: yellowgreen; */
+     text-align:center;
  }
 
  #intro {
@@ -63,5 +66,19 @@
     font-size: 200%;
     color: cadetblue;
 }
+#social{
+    display: inline-block;
+}
+#director{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* #paragraph{
+    color: darkblue;
+} */
 
+#extra{
+    text-align: center;
+}
      

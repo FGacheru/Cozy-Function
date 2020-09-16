@@ -68,17 +68,33 @@
 }
 #social{
     display: inline-block;
+    text-align: center;
+    left: 300px;
+    right: 300px;
 }
 #director{
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
-/* #paragraph{
-    color: darkblue;
-} */
+#paragraph{
+    font-size: 1.1em;
+}
 
 #extra{
     text-align: center;
 }
-     
+    footer{
+        /* display: inline-block; */
+        text-align: center;
+        left: 50%;
+        right: 50%;
+    } 
+    /* #offers>ul>li {
+        text-align: center;
+        left:30%;
+        right: 60%;
+    } */
+ul{
+    padding-left: 18em;
+}
